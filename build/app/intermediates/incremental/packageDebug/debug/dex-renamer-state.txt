@@ -1,0 +1,4 @@
+#Sat Jul 14 18:27:59 IST 2018
+base.0=/home/amit/flutternewsapp/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
