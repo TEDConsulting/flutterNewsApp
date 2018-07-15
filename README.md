@@ -1,4 +1,4 @@
 # flutterNewsApp
 
 
-A Fluuter news app using fluuter and news API
+A Flutter news app using flutter and news API
