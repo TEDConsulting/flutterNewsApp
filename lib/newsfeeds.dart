@@ -4,7 +4,7 @@ import 'constant.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
-import 'description.dart';
+
 
 
 class NewsFeedPage extends StatelessWidget{
@@ -60,6 +60,9 @@ class NewsFeedPage extends StatelessWidget{
                               : Center(child: CircularProgressIndicator());
                         },
                       ),
+                      onTap: (){
+                        print("ontap Pressed");
+                      },
                     )
                 ),
               ),
@@ -136,12 +139,6 @@ class NewsList extends StatelessWidget {
             leading: CircleAvatar(child: Icon(Icons.star,color: Colors.white,)
               , backgroundColor: Colors.lightBlue,),
             title: Text(news[index].title),
-            onTap: (){
-              var url = news[index].url;
-              Navigator.push(context, new MaterialPageRoute(
-                builder: (BuildContext context) => new DescriptionPage(url),
-              ));
-            },
           ),
         );
       },

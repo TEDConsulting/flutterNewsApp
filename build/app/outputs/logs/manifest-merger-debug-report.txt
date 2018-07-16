@@ -4,7 +4,6 @@ ADDED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:
 INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
-MERGED from [:flutter_webview_plugin] /home/amit/flutternewsapp/build/flutter_webview_plugin/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-5:12
 INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12
@@ -78,9 +77,3 @@ INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: com.flutter_webview_plugin has a targetSdkVersion < 4
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: com.flutter_webview_plugin has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/amit/flutternewsapp/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: com.flutter_webview_plugin requested WRITE_EXTERNAL_STORAGE
