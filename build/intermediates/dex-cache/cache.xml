@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/amit/flutterapp/flutter/bin/cache/artifacts/engine/android-arm-release/flutter.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18c55b251294621be466e96e18631710114d3bc1">
+        <dex dex="/home/amit/flutternewsapp/build/app/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/amit/flutternewsapp/build/flutter_webview_plugin/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5e565d3b6a9152a8f0011f626c1bbd8661d6fd61">
+        <dex dex="/home/amit/flutternewsapp/build/app/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+
+</items>

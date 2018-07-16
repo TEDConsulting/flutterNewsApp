@@ -1,0 +1,4 @@
+#Mon Jul 16 23:44:56 IST 2018
+base.0=/home/amit/flutternewsapp/build/app/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex
