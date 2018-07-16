@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'newsfeeds.dart';
-import 'package:swipedetector/swipedetector.dart';
 void main() => runApp(new HomePage());
 
 class HomePage extends StatelessWidget {
