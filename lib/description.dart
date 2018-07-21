@@ -8,27 +8,28 @@ class DescriptionPage extends StatelessWidget {
   static String tag = 'description-page';
   DescriptionPage(this.urlnews);
   final String urlnews;
-  Widget build(BuildContext context)
-  {
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text("Full Article",style: new TextStyle(color: Colors.white),),
+        title: new Text(
+          "Full Article",
+          style: new TextStyle(color: Colors.white),
+        ),
         iconTheme: IconThemeData(color: Colors.white),
       ),
-      body:new SafeArea(
-          child: new Column(
-            children: <Widget>[
+      body: new SafeArea(
+        child: new Column(
+          children: <Widget>[
             MaterialApp(
-            routes: {
-            "/": (_) => new WebviewScaffold(
-            url: urlnews,
-              appBar: new AppBar(title: new Text("")),
-            )
-            },
+              routes: {
+                "/": (_) => new WebviewScaffold(
+                      url: urlnews,
+                      appBar: new AppBar(title: new Text("")),
+                    )
+              },
             ),
-            ],
-
-          ),
+          ],
+        ),
       ),
     );
   }

@@ -1,12 +1,21 @@
-# flutterNewsApp
+# Flutter Newsapp
+
+A Flutter News App a Kick Start Guide
+
+## Getting Started
+Get Your [NewsApi Key](https://newsapi.org/)
+Enter the key into the constant file
+
+class Constant{
+  
+  static String base_url ="https://newsapi.org/v2/";
+  
+  static String key = "Put_your_key_here"; 
+
+}
+
+Clone the Project and Try to do it at your end make more freatures.
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-A Flutter news app using flutter and news API
-=======
-=======
-
-A Flutter news app using flutter and news API
->>>>>>> 0436de629e74a1e1dc6de7c879496da64a7b65ec
-
+For more help getting started with Flutter, there online
+[documentation](https://flutter.io/).
